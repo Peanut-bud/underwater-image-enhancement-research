@@ -1,0 +1,25 @@
+# 推理配置占位文件
+
+project:
+  name: underwater_image_enhancement
+  mode: inference
+
+environment:
+  conda_env: "D:/Anaconda/envs/DL2"
+
+input:
+  path: "./input_images"
+  recursive: false
+  allowed_extensions: [".png", ".jpg", ".jpeg", ".bmp"]
+
+model:
+  input_size: [512, 512]
+  device: "auto"
+  checkpoint: "./checkpoints/best.pth"
+  use_checkpoint_if_available: true
+
+output:
+  dir: "./outputs/infer"
+  save_compare: true
+  compare_suffix: "_compare"
+  enhanced_suffix: "_enhanced"

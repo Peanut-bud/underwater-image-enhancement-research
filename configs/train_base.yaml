@@ -1,0 +1,39 @@
+# 训练配置占位文件
+
+project:
+  name: underwater_image_enhancement
+  stage: stage1_minimal
+
+environment:
+  conda_env: "D:/Anaconda/envs/DL2"
+  note: "仅记录推荐环境，不代表已自动切换环境"
+
+data:
+  root: "./data"
+  image_size: [512, 512]
+  patch_training: false
+  num_workers: 0
+
+model:
+  name: "trainable_frequency_diffconv"
+  base_channels: 32
+
+training:
+  device: "auto"
+  batch_size: 4
+  learning_rate: 0.001
+  epochs: 1
+  amp: true
+  resume: ""
+
+output:
+  checkpoint_dir: "./checkpoints"
+  log_dir: "./outputs/train_logs"
+  save_every: 1
+  val_every: 1
+  checkpoint_name: "stage1_trainable_latest.pth"
+
+loss:
+  l1: 1.0
+  ssim: 1.0
+  edge: 0.5

@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+
+# Outputs
+outputs/**
+!outputs/README.md
+checkpoints/**
+!checkpoints/README.md
+
+# Training / normalized data
+data/train/
+data/val/
+data/test/
+data/raw_field/
+data/masks/
+data/splits/
+
+# Archived raw materials
+数据/
+图像增强论文/
+绘图模板/
+
+# Weights
+*.pth
+*.pt
+*.ckpt
+
+# Logs / temporary outputs
+*.log
+outputs/_smoke_test/
+
+# Reference materials
+*.xmind
+*.docx
+gh_*.msi
+
+# Notebook
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+# 评估配置占位文件
+
+project:
+  name: underwater_image_enhancement
+  mode: evaluation
+
+environment:
+  conda_env: "D:/Anaconda/envs/DL2"
+
+data:
+  pred_root: "./outputs/infer"
+  gt_root: "./data/test_gt"
+
+metrics:
+  - psnr
+  - ssim
+
+output:
+  dir: "./outputs/eval"
+

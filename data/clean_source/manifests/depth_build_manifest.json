@@ -1,0 +1,5109 @@
+{
+  "generated_at_utc": "2026-05-12T12:21:24.616346+00:00",
+  "project": {
+    "name": "underwater_image_enhancement",
+    "stage": "stage1_depth_prepare"
+  },
+  "config_snapshot": {
+    "project": {
+      "name": "underwater_image_enhancement",
+      "stage": "stage1_depth_prepare"
+    },
+    "data": {
+      "clean_source_root": "./data/clean_source",
+      "clean_depth_root": "./data/clean_source/depth",
+      "image_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg"
+      ],
+      "recursive": false
+    },
+    "model": {
+      "depth_backend": "depth_anything_v2_hf",
+      "model_id": "depth-anything/Depth-Anything-V2-Small-hf"
+    },
+    "training": {
+      "enabled": false
+    },
+    "loss": {
+      "enabled": false
+    },
+    "output": {
+      "manifest_path": "./data/clean_source/manifests/depth_build_manifest.json",
+      "overwrite": true
+    },
+    "runtime": {
+      "dry_run": false
+    },
+    "depth": {
+      "image_size": [
+        256,
+        256
+      ]
+    }
+  },
+  "input_images": 562,
+  "generated_depth_maps": 562,
+  "depth_root": "D:/科研/图像增强/data/clean_source/depth",
+  "samples": [
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0001.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0001.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0002.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0002.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0003.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0003.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0004.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0004.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0005.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0005.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0006.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0006.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0007.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0007.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0008.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0008.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0009.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0009.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0010.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0010.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0011.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0011.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0012.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0012.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0013.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0013.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0014.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0014.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0015.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0015.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0016.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0016.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0017.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0017.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0018.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0018.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0019.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0019.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0020.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0020.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0021.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0021.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0022.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0022.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0023.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0023.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0024.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0024.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0025.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0025.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0026.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0026.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0027.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0027.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0028.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0028.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0029.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0029.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0030.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0030.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0031.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0031.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0032.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0032.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0033.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0033.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0034.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0034.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0035.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0035.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0036.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0036.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0037.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0037.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0038.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0038.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0039.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0039.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0040.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0040.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0041.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0041.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0042.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0042.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0043.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0043.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0044.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0044.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0045.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0045.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0046.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0046.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0047.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0047.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0048.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0048.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0049.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0049.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0050.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0050.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0051.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0051.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0052.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0052.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0053.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0053.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0054.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0054.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0055.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0055.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0056.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0056.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0057.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0057.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0058.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0058.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0059.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0059.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0060.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0060.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0061.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0061.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0062.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0062.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0063.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0063.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0064.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0064.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0065.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0065.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0066.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0066.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0067.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0067.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0068.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0068.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0069.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0069.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0070.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0070.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0071.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0071.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0072.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0072.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0073.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0073.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0074.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0074.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0075.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0075.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0076.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0076.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0077.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0077.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0078.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0078.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0079.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0079.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0080.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0080.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0081.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0081.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0082.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0082.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0083.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0083.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0084.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0084.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0085.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0085.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0086.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0086.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0087.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0087.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0088.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0088.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0089.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0089.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0090.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0090.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0091.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0091.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0092.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0092.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0093.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0093.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0094.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0094.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0095.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0095.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0096.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0096.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0097.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0097.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0098.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0098.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0099.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0099.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0100.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0100.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0101.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0101.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0102.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0102.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0103.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0103.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0104.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0104.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0105.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0105.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0106.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0106.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0107.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0107.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0108.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0108.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0109.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0109.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0110.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0110.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0111.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0111.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0112.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0112.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0113.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0113.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0114.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0114.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0115.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0115.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0116.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0116.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0117.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0117.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0118.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0118.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0119.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0119.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0120.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0120.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0121.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0121.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0122.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0122.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0123.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0123.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0124.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0124.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0125.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0125.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0126.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0126.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0127.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0127.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0128.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0128.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0129.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0129.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0130.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0130.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0131.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0131.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0132.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0132.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0133.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0133.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0134.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0134.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0135.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0135.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0136.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0136.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0137.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0137.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0138.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0138.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0139.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0139.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0140.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0140.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0141.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0141.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0142.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0142.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0143.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0143.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0144.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0144.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0145.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0145.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0146.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0146.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0147.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0147.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0148.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0148.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0149.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0149.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0150.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0150.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0151.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0151.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0152.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0152.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0153.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0153.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0154.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0154.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0155.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0155.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0156.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0156.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0157.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0157.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0158.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0158.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0159.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0159.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0160.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0160.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0161.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0161.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0162.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0162.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0163.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0163.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0164.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0164.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0165.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0165.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0166.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0166.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0167.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0167.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0168.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0168.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0169.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0169.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0170.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0170.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0171.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0171.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0172.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0172.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0173.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0173.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0174.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0174.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0175.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0175.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0176.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0176.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0177.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0177.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0178.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0178.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0179.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0179.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0180.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0180.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0181.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0181.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0182.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0182.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0183.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0183.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0184.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0184.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0185.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0185.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0186.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0186.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0187.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0187.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0188.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0188.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0189.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0189.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0190.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0190.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0191.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0191.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0192.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0192.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0193.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0193.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0194.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0194.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0195.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0195.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0196.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0196.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0197.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0197.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0198.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0198.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0199.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0199.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0200.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0200.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0201.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0201.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0202.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0202.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0203.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0203.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0204.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0204.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0205.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0205.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0206.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0206.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0207.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0207.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0208.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0208.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0209.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0209.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_169_2019年12月_十字交点_0210.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_169_2019年12月_十字交点_0210.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0211.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0211.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0212.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0212.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0213.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0213.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0214.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0214.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0215.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0215.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0216.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0216.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0217.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0217.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0218.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0218.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0219.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0219.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0220.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0220.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0221.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0221.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0222.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0222.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0223.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0223.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0224.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0224.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0225.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0225.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0226.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0226.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0227.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0227.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0228.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0228.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0229.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0229.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0230.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0230.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0231.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0231.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0232.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0232.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0233.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0233.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0234.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0234.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0235.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0235.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0236.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0236.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0237.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0237.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0238.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0238.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0239.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0239.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0240.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0240.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0241.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0241.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0242.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0242.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0243.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0243.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0244.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0244.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0245.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0245.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0246.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0246.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0247.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0247.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0248.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0248.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0249.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0249.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0250.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0250.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0251.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0251.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0252.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0252.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0253.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0253.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0254.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0254.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0255.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0255.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0256.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0256.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0257.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0257.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0258.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0258.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0259.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0259.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0260.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0260.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0261.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0261.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0262.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0262.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0263.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0263.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0264.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0264.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0265.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0265.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0266.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0266.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0267.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0267.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0268.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0268.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0269.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0269.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0270.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0270.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0271.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0271.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0272.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0272.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0273.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0273.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0274.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0274.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0275.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0275.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0276.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0276.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0277.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0277.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0278.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0278.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0279.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0279.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0280.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0280.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0281.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0281.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0282.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0282.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0283.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0283.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0284.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0284.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0285.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0285.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0286.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0286.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0287.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0287.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0288.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0288.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0289.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0289.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0290.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0290.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0291.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0291.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0292.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0292.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0293.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0293.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0294.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0294.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0295.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0295.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0296.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0296.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0297.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0297.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0298.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0298.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0299.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0299.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0300.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0300.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0301.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0301.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0302.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0302.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0303.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0303.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0304.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0304.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0305.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0305.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0306.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0306.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0307.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0307.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0308.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0308.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0309.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0309.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0310.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0310.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0311.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0311.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0312.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0312.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0313.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0313.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0314.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0314.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0315.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0315.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0316.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0316.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0317.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0317.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0318.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0318.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0319.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0319.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0320.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0320.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0321.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0321.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0322.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0322.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0323.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0323.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0324.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0324.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0325.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0325.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0326.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0326.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0327.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0327.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0328.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0328.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0329.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0329.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0330.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0330.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0331.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0331.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0332.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0332.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0333.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0333.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0334.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0334.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0335.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0335.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0336.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0336.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0337.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0337.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0338.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0338.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0339.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0339.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0340.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0340.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0341.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0341.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0342.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0342.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0343.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0343.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0344.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0344.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0345.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0345.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0346.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0346.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0347.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0347.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0348.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0348.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0349.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0349.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0350.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0350.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0351.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0351.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0352.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0352.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0353.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0353.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0354.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0354.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0355.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0355.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0356.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0356.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0357.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0357.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0358.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0358.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0359.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0359.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0360.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0360.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0361.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0361.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0362.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0362.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0363.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0363.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0364.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0364.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0365.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0365.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0366.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0366.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0367.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0367.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0368.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0368.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0369.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0369.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0370.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0370.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0371.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0371.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0372.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0372.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0373.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0373.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0374.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0374.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0375.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0375.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0376.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0376.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0377.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0377.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0378.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0378.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0379.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0379.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0380.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0380.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0381.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0381.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0382.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0382.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0383.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0383.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0384.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0384.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0385.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0385.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0386.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0386.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0387.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0387.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0388.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0388.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0389.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0389.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0390.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0390.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0391.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0391.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_182_2019年12月_竖线_0392.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_182_2019年12月_竖线_0392.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0393.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0393.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0394.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0394.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0395.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0395.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0396.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0396.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0397.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0397.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0398.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0398.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0399.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0399.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0400.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0400.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0401.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0401.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0402.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0402.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0403.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0403.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0404.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0404.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0405.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0405.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0406.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0406.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0407.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0407.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0408.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0408.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0409.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0409.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0410.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0410.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0411.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0411.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0412.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0412.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0413.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0413.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0414.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0414.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0415.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0415.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0416.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0416.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0417.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0417.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0418.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0418.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0419.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0419.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0420.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0420.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0421.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0421.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0422.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0422.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0423.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0423.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0424.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0424.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0425.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0425.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0426.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0426.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0427.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0427.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0428.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0428.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0429.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0429.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0430.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0430.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0431.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0431.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0432.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0432.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0433.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0433.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0434.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0434.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0435.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0435.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0436.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0436.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0437.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0437.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0438.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0438.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0439.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0439.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0440.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0440.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0441.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0441.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0442.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0442.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0443.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0443.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0444.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0444.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0445.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0445.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0446.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0446.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0447.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0447.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0448.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0448.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0449.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0449.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0450.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0450.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0451.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0451.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0452.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0452.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0453.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0453.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0454.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0454.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0455.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0455.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0456.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0456.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0457.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0457.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0458.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0458.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0459.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0459.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0460.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0460.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0461.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0461.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0462.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0462.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0463.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0463.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0464.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0464.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0465.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0465.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0466.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0466.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0467.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0467.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0468.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0468.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0469.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0469.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0470.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0470.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0471.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0471.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0472.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0472.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0473.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0473.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0474.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0474.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0475.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0475.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0476.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0476.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0477.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0477.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0478.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0478.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0479.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0479.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0480.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0480.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0481.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0481.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0482.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0482.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0483.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0483.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0484.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0484.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0485.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0485.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0486.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0486.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0487.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0487.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0488.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0488.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0489.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0489.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0490.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0490.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0491.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0491.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0492.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0492.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0493.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0493.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0494.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0494.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0495.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0495.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0496.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0496.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0497.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0497.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0498.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0498.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0499.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0499.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0500.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0500.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0501.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0501.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0502.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0502.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0503.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0503.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0504.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0504.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0505.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0505.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0506.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0506.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0507.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0507.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0508.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0508.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0509.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0509.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0510.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0510.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0511.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0511.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0512.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0512.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0513.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0513.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0514.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0514.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0515.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0515.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0516.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0516.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0517.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0517.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0518.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0518.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0519.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0519.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0520.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0520.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0521.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0521.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0522.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0522.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0523.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0523.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0524.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0524.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0525.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0525.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0526.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0526.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0527.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0527.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0528.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0528.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0529.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0529.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0530.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0530.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0531.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0531.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0532.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0532.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0533.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0533.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0534.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0534.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0535.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0535.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0536.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0536.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0537.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0537.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0538.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0538.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0539.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0539.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0540.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0540.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0541.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0541.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0542.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0542.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0543.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0543.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0544.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0544.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0545.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0545.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0546.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0546.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0547.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0547.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0548.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0548.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0549.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0549.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0550.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0550.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0551.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0551.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0552.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0552.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0553.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0553.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0554.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0554.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0555.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0555.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0556.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0556.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0557.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0557.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0558.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0558.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0559.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0559.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0560.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0560.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/clean_338_2019年12月_护坦_0561.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/clean_338_2019年12月_护坦_0561.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source_image": "D:/科研/图像增强/data/clean_source/images/cross_01-01.jpg",
+      "depth_image": "D:/科研/图像增强/data/clean_source/depth/cross_01-01.png",
+      "depth_source": "depth_anything_v2_hf",
+      "image_size": [
+        256,
+        256
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@ project:
   stage: stage3_supervised
 
 data:
-  root: "./data/synthetic"
+  root: "./data/synthetic_stage1_full"
   train_split: "train"
   val_split: "val"
   image_size: [256, 256]

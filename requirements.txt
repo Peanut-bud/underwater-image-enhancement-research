@@ -10,6 +10,7 @@ scikit-image
 matplotlib
 tqdm
 PyYAML
+transformers
 
 # 可选研究依赖
 scipy

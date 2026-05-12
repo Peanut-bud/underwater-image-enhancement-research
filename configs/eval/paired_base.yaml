@@ -3,7 +3,7 @@ project:
   stage: evaluation
 
 data:
-  root: "./data/synthetic"
+  root: "./data/synthetic_stage1_full"
   split: "val"
   image_size: [256, 256]
 

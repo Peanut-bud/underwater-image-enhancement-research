@@ -4,14 +4,18 @@ project:
 
 data:
   clean_source_root: "./data/clean_source"
+  clean_depth_root: "./data/clean_source/depth"
   raw_field_root: "./data/raw_field"
-  synthetic_root: "./data/synthetic"
-  split_dir: "./data/splits"
+  synthetic_root: "./data/synthetic_stage1_full"
+  split_dir: "./data/splits_stage1_full"
   image_extensions: [".png", ".jpg", ".jpeg"]
+  recursive: false
+  output_image_format: ".png"
+  save_depth: true
   metadata_fields: ["beta", "A", "depth_source", "noise", "glare"]
 
 model:
-  depth_proxy: "placeholder_inverse_luminance"
+  depth_backend: "precomputed_depth_map"
   transmission_mode: "exp_beta_depth"
 
 training:
@@ -21,7 +25,49 @@ loss:
   enabled: false
 
 output:
-  manifest_path: "./data/raw_field/manifests/synth_build_manifest.json"
+  manifest_path: "./data/raw_field/manifests/synth_build_manifest_stage1_full.json"
+  overwrite: true
 
 runtime:
-  dry_run: true
+  dry_run: false
+  seed: 42
+
+synthesis:
+  image_size: [256, 256]
+  samples_per_image: 2
+  t_min: 0.15
+  split_ratio:
+    train: 0.7
+    val: 0.2
+    test: 0.1
+  beta_range: [0.35, 1.2]
+  airlight_range:
+    r: [0.65, 0.9]
+    g: [0.75, 0.98]
+    b: [0.7, 0.95]
+  depth:
+    normalize: true
+  glare:
+    enabled: true
+    probability: 0.5
+    strength_range: [0.03, 0.12]
+    spot_count_range: [1, 3]
+    sigma_ratio_range: [0.08, 0.18]
+  noise:
+    enabled: true
+    mode: "poisson"
+    strength_range: [0.0, 0.03]
+  preset_names: ["mild_turbid", "medium_turbid", "heavy_turbid"]
+  presets:
+    mild_turbid:
+      beta_range: [0.35, 0.65]
+      glare_probability: 0.25
+      noise_strength_range: [0.0, 0.015]
+    medium_turbid:
+      beta_range: [0.65, 0.9]
+      glare_probability: 0.5
+      noise_strength_range: [0.01, 0.025]
+    heavy_turbid:
+      beta_range: [0.9, 1.2]
+      glare_probability: 0.7
+      noise_strength_range: [0.02, 0.03]

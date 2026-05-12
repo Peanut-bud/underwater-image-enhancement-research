@@ -3,7 +3,7 @@ project:
   stage: stage3_supervised
 
 data:
-  root: "./data/synthetic"
+  root: "./data/synthetic_stage1_full"
   train_split: "train"
   val_split: "val"
   image_size: [256, 256]
@@ -15,11 +15,11 @@ model:
   checkpoint: ""
 
 training:
-  device: "cpu"
-  batch_size: 1
-  learning_rate: 0.001
-  epochs: 1
-  amp: false
+  device: "auto"
+  batch_size: 4
+  learning_rate: 0.0005
+  epochs: 20
+  amp: true
 
 loss:
   recon: 1.0

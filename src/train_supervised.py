@@ -9,6 +9,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
+from torch.utils.data._utils.collate import default_collate
 
 from src.datasets import SyntheticQuadDataset
 from src.losses import SupervisedLossStack, SupervisedLossWeights
@@ -37,6 +38,18 @@ def set_seed(seed: int) -> None:
     torch.manual_seed(seed)
 
 
+def synthetic_collate_fn(batch: list[dict[str, object]]) -> dict[str, object]:
+    collated = {
+        "input": default_collate([sample["input"] for sample in batch]),
+        "target": default_collate([sample["target"] for sample in batch]),
+        "transmission": default_collate([sample["transmission"] for sample in batch]),
+        "airlight": default_collate([sample["airlight"] for sample in batch]),
+    }
+    collated["metadata"] = [sample.get("metadata") for sample in batch]
+    collated["meta"] = [sample.get("meta") for sample in batch]
+    return collated
+
+
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
     project_root = Path(__file__).resolve().parents[1]
@@ -56,8 +69,20 @@ def main(argv: list[str] | None = None) -> None:
 
     batch_size = int(train_cfg.get("batch_size", 1))
     num_workers = int(data_cfg.get("num_workers", 0))
-    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=num_workers)
-    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=num_workers)
+    train_loader = DataLoader(
+        train_dataset,
+        batch_size=batch_size,
+        shuffle=True,
+        num_workers=num_workers,
+        collate_fn=synthetic_collate_fn,
+    )
+    val_loader = DataLoader(
+        val_dataset,
+        batch_size=batch_size,
+        shuffle=False,
+        num_workers=num_workers,
+        collate_fn=synthetic_collate_fn,
+    )
 
     device = resolve_device(str(train_cfg.get("device", "cpu")))
     model = build_physical_guided_enhancer(
@@ -83,7 +108,7 @@ def main(argv: list[str] | None = None) -> None:
             perceptual=float(loss_cfg.get("perceptual", 0.1)),
         ),
         use_stub_perceptual=bool(loss_cfg.get("use_stub_perceptual", True)),
-    )
+    ).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=float(train_cfg.get("learning_rate", 1e-3)))
 
     trainer = SupervisedTrainer(

@@ -1,0 +1,11 @@
+{
+  "role": "clean_source",
+  "description": "Candidate source directories for stage-1 clean-reference images.",
+  "candidates": [
+    {
+      "source_dir": "D:/科研/图像增强/数据/1467-混凝土图像筛选",
+      "reason": "相较于现场测试图像更清楚、结构更稳定，当前最适合作为阶段一起步的候选清晰参考图来源。",
+      "warning": "该目录图像仍含水下高光、暗角和轻度色偏，只能视为相对清晰图，不能等同于严格无退化 Ground Truth。"
+    }
+  ]
+}

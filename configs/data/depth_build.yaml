@@ -1,0 +1,29 @@
+project:
+  name: underwater_image_enhancement
+  stage: stage1_depth_prepare
+
+data:
+  clean_source_root: "./data/clean_source"
+  clean_depth_root: "./data/clean_source/depth"
+  image_extensions: [".png", ".jpg", ".jpeg"]
+  recursive: false
+
+model:
+  depth_backend: "depth_anything_v2_hf"
+  model_id: "depth-anything/Depth-Anything-V2-Small-hf"
+
+training:
+  enabled: false
+
+loss:
+  enabled: false
+
+output:
+  manifest_path: "./data/clean_source/manifests/depth_build_manifest.json"
+  overwrite: true
+
+runtime:
+  dry_run: false
+
+depth:
+  image_size: [256, 256]

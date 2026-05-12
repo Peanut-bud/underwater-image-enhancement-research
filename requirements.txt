@@ -1,34 +1,26 @@
-# 说明：
-# 1. 本文件目前仅作为依赖占位清单，不代表已经安装
-# 2. 默认基础环境为 D:\Anaconda\envs\DL2
-# 3. 后续如需补装依赖，应优先在 DL2 中完成
+# 基础依赖清单
+# 默认推荐环境：D:\Anaconda\envs\DL2
 
 torch
 torchvision
 numpy
-scipy
 opencv-python
 Pillow
 scikit-image
+matplotlib
+tqdm
+PyYAML
+
+# 可选研究依赖
+scipy
+pandas
 einops
 timm
 PyWavelets
 albumentations
-matplotlib
-pandas
-tqdm
-PyYAML
 tensorboard
 
-# 第二阶段评估依赖
+# 可选评估依赖
 # lpips
 # piq
 # torchmetrics
-# seaborn
-
-# 可选
-# jupyter
-# notebook
-# imageio
-# ffmpeg-python
-

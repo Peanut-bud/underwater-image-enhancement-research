@@ -1,0 +1,26 @@
+project:
+  name: underwater_image_enhancement
+  stage: evaluation
+
+data:
+  root: "./data/synthetic"
+  split: "val"
+  image_size: [256, 256]
+
+model:
+  base_channels: 32
+  t_min: 0.05
+  checkpoint: ""
+  mode: "paired"
+
+training:
+  enabled: false
+
+loss:
+  enabled: false
+
+output:
+  report_path: "./outputs/eval/paired_report.json"
+
+runtime:
+  device: "cpu"

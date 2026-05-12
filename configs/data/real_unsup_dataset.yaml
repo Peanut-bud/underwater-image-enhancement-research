@@ -1,0 +1,25 @@
+project:
+  name: underwater_image_enhancement
+  stage: stage4_adaptation
+
+data:
+  root: "./data/real_unsup"
+  train_split: "train"
+  val_split: "val"
+  image_size: [256, 256]
+  num_workers: 0
+
+model:
+  name: "physical_guided_enhancer"
+
+training:
+  enabled: false
+
+loss:
+  enabled: false
+
+output:
+  note: "Real unpaired dataset definition only."
+
+runtime:
+  recursive: true

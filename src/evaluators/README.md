@@ -1,10 +1,6 @@
 # evaluators 模块
 
-本模块后续负责：
+本模块负责两类评估：
 
-- PSNR
-- SSIM
-- LPIPS
-- 无参考评价
-- 评估结果导出
-
+- paired 评估：面向合成监督数据
+- no-reference 评估：面向真实无配对图像

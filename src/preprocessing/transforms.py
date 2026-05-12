@@ -1,4 +1,4 @@
-"""Minimal paired-image transforms for stage-one training."""
+"""Minimal transform helpers for synthetic and real-image datasets."""
 
 from __future__ import annotations
 
@@ -14,6 +14,11 @@ from PIL import Image
 def pil_to_tensor(image: Image.Image) -> torch.Tensor:
     array = np.asarray(image, dtype=np.float32) / 255.0
     return torch.from_numpy(array).permute(2, 0, 1)
+
+
+def pil_to_grayscale_tensor(image: Image.Image) -> torch.Tensor:
+    array = np.asarray(image.convert("L"), dtype=np.float32) / 255.0
+    return torch.from_numpy(array).unsqueeze(0)
 
 
 @dataclass

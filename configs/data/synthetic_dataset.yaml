@@ -1,0 +1,25 @@
+project:
+  name: underwater_image_enhancement
+  stage: stage3_supervised
+
+data:
+  root: "./data/synthetic"
+  train_split: "train"
+  val_split: "val"
+  image_size: [256, 256]
+  num_workers: 0
+
+model:
+  name: "physical_guided_enhancer"
+
+training:
+  enabled: false
+
+loss:
+  enabled: false
+
+output:
+  note: "Synthetic dataset definition only."
+
+runtime:
+  recursive: false

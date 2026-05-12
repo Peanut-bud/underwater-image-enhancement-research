@@ -1,5 +1,5 @@
 """工具模块导出。"""
-
+"""Shared utilities."""
 from src.utils.config import load_config
 from src.utils.io import (
     IMAGE_EXTENSIONS,

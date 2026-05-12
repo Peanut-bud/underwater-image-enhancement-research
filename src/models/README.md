@@ -1,13 +1,8 @@
 # models 模块
 
-本模块后续负责：
+本模块固定围绕物理引导主线展开：
 
-- 主模型骨架
-- 频域增强模块
-- 差分卷积模块
-- 高光感知分支
-- 光照校正分支
-- 曝光校正分支
-- 注意力融合模块
-- 重建头
-
+- `parameter_estimator.py`
+- `physics_reconstruction.py`
+- `refinement_net.py`
+- `physical_guided_enhancer.py`

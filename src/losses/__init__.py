@@ -1,17 +1,13 @@
-"""Loss exports."""
+"""Loss stacks for supervised and adaptation stages."""
 
-from src.losses.basic_losses import (
-    BasicEnhancementLoss,
-    BasicLossWeights,
-    EdgeLoss,
-    L1ReconstructionLoss,
-    SSIMLoss,
-)
+from .perceptual import VGGPerceptualLoss
+from .supervised_losses import SupervisedLossStack, SupervisedLossWeights
+from .unsupervised_losses import AdaptationLossStack, AdaptationLossWeights
 
 __all__ = [
-    "BasicEnhancementLoss",
-    "BasicLossWeights",
-    "EdgeLoss",
-    "L1ReconstructionLoss",
-    "SSIMLoss",
+    "AdaptationLossStack",
+    "AdaptationLossWeights",
+    "SupervisedLossStack",
+    "SupervisedLossWeights",
+    "VGGPerceptualLoss",
 ]

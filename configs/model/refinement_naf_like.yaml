@@ -1,0 +1,24 @@
+project:
+  name: underwater_image_enhancement
+  stage: stage2_model
+
+data:
+  input_channels: 10
+
+model:
+  name: "naf_like_refinement"
+  hidden_channels: 32
+  blocks: 2
+  residual_scale: 0.2
+
+training:
+  enabled: false
+
+loss:
+  enabled: false
+
+output:
+  note: "Refinement subnet config."
+
+runtime:
+  device: "cpu"

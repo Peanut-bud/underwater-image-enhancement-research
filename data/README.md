@@ -1,40 +1,46 @@
 # 数据目录
 
-本目录用于存放**规范化后的工程数据**，不替代现有的 `数据/` 原始资料目录。
+`data/` 是本工程唯一的标准数据入口，`数据/` 仍然是原始资料库，保持只读，不改原始结构。
 
-建议后续使用如下结构：
+当前固定结构：
 
 ```text
 data/
-├─ train/
-├─ val/
-├─ test/
 ├─ raw_field/
-├─ masks/
+│  ├─ images/
+│  ├─ videos/
+│  └─ manifests/
+├─ clean_source/
+│  ├─ images/
+│  └─ manifests/
+├─ synthetic/
+│  ├─ train/
+│  │  ├─ input/
+│  │  ├─ target/
+│  │  ├─ transmission/
+│  │  ├─ airlight/
+│  │  └─ metadata/
+│  ├─ val/
+│  └─ test/
+├─ real_unsup/
+│  ├─ train/
+│  ├─ val/
+│  └─ masks/
 └─ splits/
 ```
 
-说明：
+语义约定：
 
-- `数据/` 保留为原始采集资料与归档目录
-- `data/` 用于后续训练、验证、推理时的统一入口
-- 不允许为训练方便而直接修改 `数据/` 的原有内容和目录结构
+- `raw_field/`：从 [数据](/D:/科研/图像增强/数据) 中整理出的真实现场原图入口，只记录索引和工程所需子集。
+- `clean_source/`：用于阶段 1 物理退化合成的清晰参考图。
+- `synthetic/`：阶段 1 产出的正式监督数据，包含四元组和元数据。
+- `real_unsup/`：阶段 4 使用的真实无配对图像。
+- `splits/`：统一记录 train / val / test 样本清单。
 
-当前已建立第一阶段 smoke test 子集：
+当前仓库内放置了一小批 smoke 级样例，用途仅限于：
 
-```text
-data/
-├─ train/
-│  ├─ input/
-│  └─ target/
-├─ val/
-│  ├─ input/
-│  └─ target/
-└─ DATASET_SMOKESET.md
-```
+- 验证四元组 dataset 读取协议
+- 验证监督训练与微调训练入口
+- 验证推理与评估入口
 
-说明：
-
-- 第一阶段子集仅用于训练闭环验证
-- 当前 `target` 先与 `input` 使用同图同名复制，目的是打通 dataset / trainer / checkpoint 链路
-- 这不是正式监督训练数据方案
+这些样例不是正式论文训练集，也不代表最终数据分布。

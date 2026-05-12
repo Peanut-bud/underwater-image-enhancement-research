@@ -1,12 +1,8 @@
 # losses 模块
 
-本模块后续负责：
+本模块拆分为两套损失：
 
-- L1 损失
-- SSIM 损失
-- 边缘损失
-- 颜色损失
-- 感知损失
-- 高光区域损失
-- 曝光一致性损失
-
+- `supervised_losses.py`
+  - 阶段 3 监督训练
+- `unsupervised_losses.py`
+  - 阶段 4 无监督微调

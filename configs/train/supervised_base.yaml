@@ -1,0 +1,39 @@
+project:
+  name: underwater_image_enhancement
+  stage: stage3_supervised
+
+data:
+  root: "./data/synthetic"
+  train_split: "train"
+  val_split: "val"
+  image_size: [256, 256]
+  num_workers: 0
+
+model:
+  base_channels: 32
+  t_min: 0.05
+  checkpoint: ""
+
+training:
+  device: "cpu"
+  batch_size: 1
+  learning_rate: 0.001
+  epochs: 1
+  amp: false
+
+loss:
+  recon: 1.0
+  ssim: 0.5
+  edge: 0.2
+  transmission: 0.5
+  airlight: 0.2
+  perceptual: 0.1
+  use_stub_perceptual: true
+
+output:
+  checkpoint_dir: "./checkpoints"
+  checkpoint_name: "physical_guided_supervised_latest.pth"
+  val_every: 1
+
+runtime:
+  seed: 0

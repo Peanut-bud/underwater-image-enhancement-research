@@ -7,7 +7,7 @@ from typing import Any, Dict
 
 import torch
 
-from src.models.minimal_enhancer import build_minimal_enhancer
+from src.models import build_physical_guided_enhancer
 from src.preprocessing.image_ops import postprocess_tensor, preprocess_image, read_rgb_image
 from src.utils.io import build_compare_image, build_output_paths, save_image
 
@@ -20,7 +20,11 @@ def resolve_device(model_cfg: Dict[str, Any]) -> torch.device:
 
 
 def build_model(model_cfg: Dict[str, Any], project_root: Path) -> torch.nn.Module:
-    model = build_minimal_enhancer()
+    model = build_physical_guided_enhancer(
+        base_channels=int(model_cfg.get("base_channels", 32)),
+        t_min=float(model_cfg.get("t_min", 0.05)),
+        refinement_blocks=int(model_cfg.get("refinement_blocks", 2)),
+    )
     checkpoint = model_cfg.get("checkpoint")
     use_checkpoint = bool(model_cfg.get("use_checkpoint_if_available", True))
     if not checkpoint or not use_checkpoint:
@@ -54,7 +58,7 @@ def run_single_image(
     tensor = tensor.to(device)
 
     with torch.no_grad():
-        enhanced = model(tensor)
+        enhanced = model(tensor)["enhanced"]
 
     enhanced_image = postprocess_tensor(enhanced, original_size)
     enhanced_path, compare_path = build_output_paths(output_dir, image_path, enhanced_suffix, compare_suffix)

@@ -1,0 +1,7 @@
+{
+  "beta": 0.66,
+  "A": [0.79, 0.88, 0.87],
+  "depth_source": "placeholder_inverse_luminance",
+  "noise": "smoke_placeholder",
+  "glare": "smoke_placeholder"
+}

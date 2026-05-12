@@ -1,0 +1,29 @@
+project:
+  name: underwater_image_enhancement
+  stage: inference
+
+data:
+  input_path: "./input_images"
+  image_size: [512, 512]
+  recursive: false
+
+model:
+  base_channels: 32
+  t_min: 0.05
+  checkpoint: ""
+  device: "cpu"
+
+training:
+  enabled: false
+
+loss:
+  enabled: false
+
+output:
+  output_dir: "./outputs/infer"
+  save_compare: true
+  enhanced_suffix: "_enhanced"
+  compare_suffix: "_compare"
+
+runtime:
+  max_images: 0

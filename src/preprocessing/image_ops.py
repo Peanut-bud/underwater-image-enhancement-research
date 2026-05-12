@@ -1,4 +1,4 @@
-"""Stage-one inference preprocessing utilities."""
+"""Image preprocessing utilities shared by training and inference."""
 
 from __future__ import annotations
 

@@ -1,0 +1,27 @@
+project:
+  name: underwater_image_enhancement
+  stage: stage1_synthesis
+
+data:
+  clean_source_root: "./data/clean_source"
+  raw_field_root: "./data/raw_field"
+  synthetic_root: "./data/synthetic"
+  split_dir: "./data/splits"
+  image_extensions: [".png", ".jpg", ".jpeg"]
+  metadata_fields: ["beta", "A", "depth_source", "noise", "glare"]
+
+model:
+  depth_proxy: "placeholder_inverse_luminance"
+  transmission_mode: "exp_beta_depth"
+
+training:
+  enabled: false
+
+loss:
+  enabled: false
+
+output:
+  manifest_path: "./data/raw_field/manifests/synth_build_manifest.json"
+
+runtime:
+  dry_run: true

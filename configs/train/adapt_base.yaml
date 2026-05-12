@@ -1,0 +1,36 @@
+project:
+  name: underwater_image_enhancement
+  stage: stage4_adaptation
+
+data:
+  root: "./data/real_unsup"
+  train_split: "train"
+  val_split: "val"
+  image_size: [256, 256]
+  num_workers: 0
+
+model:
+  base_channels: 32
+  t_min: 0.05
+  checkpoint: ""
+  freeze_refinement: true
+
+training:
+  device: "cpu"
+  batch_size: 1
+  learning_rate: 0.0005
+  epochs: 1
+  amp: false
+
+loss:
+  color_constancy: 1.0
+  exposure_balance: 1.0
+  transmission_smooth: 0.5
+  identity_regularization: 0.2
+
+output:
+  checkpoint_dir: "./checkpoints"
+  checkpoint_name: "physical_guided_adapt_latest.pth"
+
+runtime:
+  seed: 0
